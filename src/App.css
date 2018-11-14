@@ -35,7 +35,12 @@ body, .app {
     padding: 0 20px 40px;
   }
 }
-
+.bookshelf-status {
+  margin-top: 50px;
+  font-weight: initial;
+  font-size: 1.1em;
+  color: #b3b3b3;
+}
 .bookshelf-title {
   border-bottom: 1px solid #dedede;
 }
@@ -136,7 +141,7 @@ body, .app {
 .book-top {
   position: relative;
   height: 200px;
-  display: flex;
+  display: initial;
   align-items: flex-end;
 }
 
