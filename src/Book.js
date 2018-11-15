@@ -10,7 +10,7 @@ class Book extends Component {
              height: 193, backgroundImage: `url("${displayedThumbnail}" `}}></div>
             <div className="book-shelf-charger">
             <select
-              oncChange={(event) => this.props.moveShelf(
+              onChange={(event) => this.props.moveShelf(
                 this.props.book, event.target.value
               )}
               value={this.props.currentShelf}
