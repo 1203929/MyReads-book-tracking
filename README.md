@@ -5,8 +5,7 @@ which are categories in few part Like currently Reading, want to read etc.These 
 There is also a search bar,Where you can find books with keywords.The search bar is routed at different address.
 Each book has also control button using which you can categories different books into shelfs.
 when we navigate to the back page ,you can see categorised books on main page shelfs.
-you can host locally this app downloading all dependencies
-and with command- npm start. 
+The command to install dependencies is npm install, npm start is the command to launch the app after npm install has been run.
  [Create React App](https://github.com/facebookincubator/create-react-app) to bootstrap the project.
 
 ## TL;DR
@@ -38,7 +37,6 @@ To get started developing right away:
     └── index.js # You should not need to modify this file. It is used for DOM rendering only.
 ```
 
-Remember that good React design practice is to create new JS files for each component and use import/require statements to include them where they are needed.
 
 ## Backend Server
 
@@ -91,7 +89,5 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 ## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
